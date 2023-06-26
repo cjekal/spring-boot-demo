@@ -8,6 +8,6 @@ public class EchoController {
     
     @PostMapping("/echo")
     public String echo(@RequestBody String value) {
-        return value + " ... " + value;
+        return value + " ... " + value + " main branch!";
     }
 }
