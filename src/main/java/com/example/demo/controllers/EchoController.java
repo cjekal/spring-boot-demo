@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/v1")
 public class EchoController {
     
+    private int unusedInteger;
+    
     @PostMapping("/echo")
     public String echo(@RequestBody String value) {
         System.out.println("haha!");
