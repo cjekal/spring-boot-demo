@@ -12,6 +12,6 @@ public class EchoController {
     @PostMapping("/echo")
     public String echo(@RequestBody String value) {
         System.out.println("haha!");
-        return value + " ... " + value + " main branch! one more change!";
+        return value + " ... " + value + " a little less!";
     }
 }
